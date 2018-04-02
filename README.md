@@ -8,6 +8,7 @@ spending some money.
 - ✓ [ESI UDJ6](#esi-udj6)
 - ✓ [Native Instruments Audio 2](#native-instruments-audio-2)
 - ✓ [Native Instruments Audio 4 DJ](#native-instruments-audio-4-dj)
+- ✓ [Native Instruments Audio 6](#native-instruments-audio-6)
 - ✓ [Native Instruments Audio 8 DJ](#native-instruments-audio-8-dj)
 - ✖️ [Pioneer DJM-750MK2](#pioneer-djm-750mk2)
 
@@ -52,6 +53,24 @@ USB, 4 inputs, 4 outputs. Toggleable phono preamps on all inputs.
 Set inputs to Phono: `$ amixer -c [cardnumber] cset numid=1 1`
 
 Set inputs to Line: `$ amixer -c [cardnumber] cset numid=1 0`
+
+## Native Instruments Audio 6
+
+- ✓ Working on Ubuntu 11.10
+
+USB, 6 inputs, 6 outputs. Toggleable phono preamps on 4 inputs. Togglable
+pass-thru on 4 inputs.
+
+PASSTHRU on channel A: `$ amixer -c T6 cset numid=1 on/(off)`
+
+PASSTHRU on channel B: `$ amixer -c T6 cset numid=2 on/(off)`
+
+Switch PHONO/LINE on channel A: `$ amixer -c T6 cset numid=3 on/(off)`
+
+Switch PHONO/LINE on channel B: `$ amixer -c T6 cset numid=4 on/(off)`
+
+An `.asoundrc` file making this device present stereo pairs can be found here:
+http://www.pogo.org.uk/~mark/linuxdj/t6.asoundrc
 
 ## Native Instruments Audio 8 DJ
 
