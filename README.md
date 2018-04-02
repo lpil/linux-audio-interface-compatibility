@@ -8,6 +8,7 @@ spending some money.
 - ✓ [ESI UDJ6](#esi-udj6)
 - ✓ [Native Instruments Audio 2](#native-instruments-audio-2)
 - ✓ [Native Instruments Audio 4 DJ](#native-instruments-audio-4-dj)
+- ✓ [Native Instruments Audio 8 DJ](#native-instruments-audio-8-dj)
 - ✖️ [Pioneer DJM-750MK2](#pioneer-djm-750mk2)
 
 ## Allen & Heath XONE:K2
@@ -20,7 +21,7 @@ USB, 0 inputs, 4 outputs.
 
 ## ESI UDJ6
 
-- ✓ Working on Ubuntu 16.04.
+- ✓ Working on Ubuntu 16.04
 
 USB, 0 inputs, 6 outputs.
 
@@ -33,7 +34,7 @@ signals going into an external mixer or such.
 
 ## Native Instruments Audio 2
 
-- ✓ Working on Ubuntu 16.04.
+- ✓ Working on Ubuntu 16.04
 
 USB, 0 inputs, 4 outputs.
 
@@ -41,9 +42,24 @@ USB, 0 inputs, 4 outputs.
 
 ## Native Instruments Audio 4 DJ
 
-- ✓ Working on Ubuntu 16.04.
+- ✓ Working on Ubuntu 16.04
+- ✓ Working on Debian Jessie
+- ✓ Working on Ubuntu 12.04
+- ✓ Working on Ubuntu 10.10
 
 USB, 4 inputs, 4 outputs. Toggleable phono preamps on all inputs.
+
+Set inputs to Phono: `$ amixer -c [cardnumber] cset numid=1 1`
+
+Set inputs to Line: `$ amixer -c [cardnumber] cset numid=1 0`
+
+## Native Instruments Audio 8 DJ
+
+- ✓ Working on Debian Jessie
+- ✓ Working on Ubuntu 12.04
+- ✓ Working on Ubuntu 10.10
+
+USB, 8 inputs, 8 outputs. Toggleable phono preamps on 4 inputs.
 
 Set inputs to Phono: `$ amixer -c [cardnumber] cset numid=1 1`
 
