@@ -8,6 +8,7 @@ spending some money.
 ## Devices
 
 - ✓ [Allen & Heath XONE:K2](#allen--heath-xonek2)
+- ✓ [ESI UDJ6](#esi-udj6)
 - ✓ [Native Instruments Audio 2](#native-instruments-audio-2)
 - ✖️ [Pioneer DJM-750MK2](#pioneer-djm-750mk2)
 
@@ -18,6 +19,19 @@ spending some money.
 USB, 0 inputs, 4 outputs.
 
 http://www.allen-heath.com/ahproducts/xonek2/
+
+### ESI UDJ6
+
+✓ Working. Tested on Ubuntu 16.04.
+
+USB, 0 inputs, 6 outputs.
+
+http://www.esi-audio.com/products/udj6/
+
+The headphone output is incredibly loud. Turning down the volume with the ALSA
+mixer lowers the volume but not the noise floor, so you get a very noisy
+signal not really suited for use with headphones. Would work well for 6 hot
+signals going into an external mixer or such.
 
 ### Native Instruments Audio 2
 
