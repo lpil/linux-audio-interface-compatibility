@@ -10,6 +10,7 @@ spending some money.
 - ✓ [Native Instruments Audio 4 DJ](#native-instruments-audio-4-dj)
 - ✓ [Native Instruments Audio 6](#native-instruments-audio-6)
 - ✓ [Native Instruments Audio 8 DJ](#native-instruments-audio-8-dj)
+- ✓ [Rane SL-1](#rane-sl-1)
 - ✖️ [Pioneer DJM-750MK2](#pioneer-djm-750mk2)
 
 ## Allen & Heath XONE:K2
@@ -83,6 +84,14 @@ USB, 8 inputs, 8 outputs. Toggleable phono preamps on 4 inputs.
 Set inputs to Phono: `$ amixer -c [cardnumber] cset numid=1 1`
 
 Set inputs to Line: `$ amixer -c [cardnumber] cset numid=1 0`
+
+## Rane SL-1
+
+- ✓ Working on Fedora ~2011. Unable to turn on the phono preamps.
+
+USB, 4 inputs, 4 outputs. Toggable phono preamps on all 4 inputs.
+
+- http://dj.rane.com/products/sl1-for-serato-scratch-live
 
 ## Pioneer DJM-750MK2
 
