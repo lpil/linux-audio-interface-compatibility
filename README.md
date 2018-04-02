@@ -5,6 +5,7 @@ will help some people answer the question of "does it work on Linux" before
 spending some money.
 
 - ✓ [Allen & Heath XONE:K2](#allen--heath-xonek2)
+- ✓ [Behringer UFO202](#behringer-uf0202)
 - ✓ [ESI UDJ6](#esi-udj6)
 - ✓ [Native Instruments Audio 2](#native-instruments-audio-2)
 - ✓ [Native Instruments Audio 4 DJ](#native-instruments-audio-4-dj)
@@ -20,6 +21,14 @@ spending some money.
 USB, 0 inputs, 4 outputs.
 
 - http://www.allen-heath.com/ahproducts/xonek2/
+
+## Behringer UFO202
+
+- ✓ Working on Ubuntu 11.04
+
+USB, 2 inputs, 2 outputs.
+
+- http://www.behringer.com/EN/Products/UFO202.aspx
 
 ## ESI UDJ6
 
