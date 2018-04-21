@@ -69,9 +69,9 @@ USB, 0 inputs, 4 outputs.
 
 USB, 4 inputs, 4 outputs. Toggleable phono preamps on all inputs.
 
-Set inputs to Phono: `$ amixer -c [cardnumber] cset numid=1 1`
+Set inputs to Phono: `$ amixer -c [cardnumber] cset numid=1 0`
 
-Set inputs to Line: `$ amixer -c [cardnumber] cset numid=1 0`
+Set inputs to Line: `$ amixer -c [cardnumber] cset numid=1 1`
 
 ## Native Instruments Audio 6
 
